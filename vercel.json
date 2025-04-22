@@ -5,11 +5,11 @@
         "use": "@vercel/static"
       }
     ],
-    "redirects": [
+    "rewrites": [
       {
         "source": "/:match*",
-        "destination": "/index.html",
-        "permanent": false
+        "destination": "/index.html"
       }
     ]
   }
+  
