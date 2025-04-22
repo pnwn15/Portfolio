@@ -54,13 +54,13 @@ function Navbar() {
               <li key={index}>
                 <a
                   href={item.href}
-                  className={`block py-2 px-3 rounded-sm md:p-0 
+                  className={`block py-2 px-3  md:p-0 
           ${
-            item.name === "Home"
+            item.name === ""
               ? "text-white font-bold md:bg-transparent md:text-orange-400 dark:text-white md:dark:text-orange-400"
               : "text-white hover:bg-gray-100 border-b-2 md:border-b-0 border-white md:hover:bg-transparent md:hover:text-orange-400 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
           }`}
-                  aria-current={item.name === "Home" ? "page" : undefined}
+                  
                 >
                   <span className="text-[#C778DD]">#</span>
                   {item.name}

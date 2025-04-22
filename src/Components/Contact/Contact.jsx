@@ -51,7 +51,7 @@ function Contact() {
                 ))}
               </div>
             </div>
-            <div className="mt-6 text-left">
+            <div className="mt-6 overflow-auto text-left">
             <Form />
             </div>
           </div>

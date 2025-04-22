@@ -30,7 +30,7 @@ function Form() {
 
   return (
     <div className="flex justify-between flex-wrap space-y-4">
-      <form className="max-w-xl text-white ">
+      <form className="max-w-xl  text-white ">
         <div className="flex gap-4 mb-4">
           <input
             type="text"
