@@ -66,11 +66,11 @@ function Carousel() {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-[469px] relative z-20 flex flex-col justify-center">
+            <div className="w-full  md:w-[469px] relative z-20 flex flex-col justify-center">
               <motion.img
-                src="/human.png"
+                src="/hu2.png"
                 alt="Ironman Graphic"
-                className="w-[469px] h-[386px] opacity-30 mx-auto md:opacity-70"
+                className="w-[469px] h-[386px]  opacity-30 mx-auto md:opacity-70"
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 0.7, y: 0 }}
                 transition={{ duration: 1, ease: "easeOut" }}

@@ -71,7 +71,7 @@ function Aboutme() {
         {/* ขวา - รูปภาพ */}
         <div className="w-full md:w-1/2 flex justify-center items-center relative">
           <img
-            src="/human1.png"
+            src="/hu4.png"
             alt="My Image"
             className="w-full h-96 max-w-sm object-contain transition-transform duration-300 hover:scale-110 hover:shadow-lg"
           />
