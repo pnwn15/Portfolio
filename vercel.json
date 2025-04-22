@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "index.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/:match*",
+        "destination": "/index.html",
+        "permanent": false
+      }
+    ]
+  }
